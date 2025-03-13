@@ -48,7 +48,7 @@ Antes de ejecutar el proyecto, se debe tener instalado lo siguiente:
    ```sh
    dotnet run
    ```
-5. La API estará disponible en `http://localhost:{puerto}/api/users`.
+5. La API estará disponible en `http://localhost:{puerto}/api/users`. (Este puede variar, en mi caso fue 5000 o 5054)
 
 ## Endpoints de la API
 
@@ -58,12 +58,12 @@ Antes de ejecutar el proyecto, se debe tener instalado lo siguiente:
 
 #### cURL
 ```sh
-curl -X GET "http://localhost:5054/api/users"
+curl -X GET "http://localhost:5000/api/users"
 ```
 
 #### Postman
 - Método: `GET`
-- URL: `http://localhost:5054/api/users`
+- URL: `http://localhost:5000/api/users`
 
 ---
 
@@ -73,12 +73,12 @@ curl -X GET "http://localhost:5054/api/users"
 
 #### cURL
 ```sh
-curl -X GET "http://localhost:5054/api/users/1"
+curl -X GET "http://localhost:5000/api/users/1"
 ```
 
 #### Postman
 - Método: `GET`
-- URL: `http://localhost:5054/api/users/1`
+- URL: `http://localhost:5000/api/users/1`
 
 ---
 
@@ -98,14 +98,14 @@ curl -X GET "http://localhost:5054/api/users/1"
 
 #### cURL
 ```sh
-curl -X POST "http://localhost:5054/api/users" \
+curl -X POST "http://localhost:5000/api/users" \
      -H "Content-Type: application/json" \
      -d '{"name": "Juan", "lastName": "Perez", "phoneNumber": "123456789", "email": "juan@email.com", "data": "Información extra"}'
 ```
 
 #### Postman
 - Método: `POST`
-- URL: `http://localhost:5054/api/users`
+- URL: `http://localhost:5000/api/users`
 - Body: JSON (como se muestra arriba)
 
 ---
@@ -126,14 +126,14 @@ curl -X POST "http://localhost:5054/api/users" \
 
 #### cURL
 ```sh
-curl -X PUT "http://localhost:5054/api/users/1" \
+curl -X PUT "http://localhost:5000/api/users/1" \
      -H "Content-Type: application/json" \
      -d '{"name": "Nuevo Nombre", "lastName": "Nuevo Apellido", "phoneNumber": "987654321", "email": "nuevo@email.com", "data": "Nuevo dato"}'
 ```
 
 #### Postman
 - Método: `PUT`
-- URL: `http://localhost:5054/api/users/1`
+- URL: `http://localhost:5000/api/users/1`
 - Body: JSON (como se muestra arriba)
 
 ---
@@ -144,12 +144,12 @@ curl -X PUT "http://localhost:5054/api/users/1" \
 
 #### cURL
 ```sh
-curl -X DELETE "http://localhost:5054/api/users/1"
+curl -X DELETE "http://localhost:5000/api/users/1"
 ```
 
 #### Postman
 - Método: `DELETE`
-- URL: `http://localhost:5054/api/users/1`
+- URL: `http://localhost:5000/api/users/1`
 
 ## Tecnologías utilizadas
 
