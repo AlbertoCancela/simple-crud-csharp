@@ -15,7 +15,6 @@ Antes de ejecutar el proyecto, se debe tener instalado lo siguiente:
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
 - [MySQL Server](https://dev.mysql.com/downloads/mysql/)
-- [MySQL Workbench (opcional)](https://dev.mysql.com/downloads/workbench/)
 
 ### Configuración de la Base de Datos
 
@@ -34,7 +33,7 @@ Antes de ejecutar el proyecto, se debe tener instalado lo siguiente:
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tu-repo/simple-crud
+   git clone https://github.com/AlbertoCancela/simple-crud-csharp
    ```
 2. Accede al directorio del proyecto:
    ```sh
