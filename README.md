@@ -48,7 +48,7 @@ Antes de ejecutar el proyecto, se debe tener instalado lo siguiente:
    ```sh
    dotnet run
    ```
-5. La API estará disponible en `http://localhost:5054/api/users`.
+5. La API estará disponible en `http://localhost:{puerto}/api/users`.
 
 ## Endpoints de la API
 
